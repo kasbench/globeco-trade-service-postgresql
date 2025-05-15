@@ -20,7 +20,7 @@ docker run -d --name globeco-trade-service-postgresql \
 With network
 
 ```
-docker run -d --name globeco-order-service-postgresql \
+docker run -d --name globeco-trade-service-postgresql \
   -p 32800:5432 \
   -e POSTGRES_HOST_AUTH_METHOD=trust \
   --network my-network \
